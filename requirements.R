@@ -32,6 +32,6 @@ if(!require(knitr)){
   library(knitr)
 }
 
-
+quit(save="no")
 
 
