@@ -9,7 +9,7 @@
 
 .libPaths("/srv/shiny-server/LifeSpanCurves/libs")
 gitversion <- function(){
-  git<-read.csv("/srv/shiny-server/.git/refs/heads/master", header=FALSE)
+  git<-read.csv("/srv/shiny-server/.git/modules/LifeSpanCurves/refs/heads/master", header=FALSE)
   git<-git$V1
   git<-toString(git[1])
   git<-substr(git, 1, 7)
