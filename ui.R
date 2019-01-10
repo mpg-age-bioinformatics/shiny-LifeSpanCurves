@@ -49,7 +49,7 @@ shinyUI(fluidPage(
                  checkboxInput('longtable', "Table in long format", FALSE),
                  
                  # Input: Checkbox if file has header ----
-                 a(href = "https://github.com/mpg-age-bioinformatics/shiny-LifeSpanCurves/blob/master/input_examples/lifespan_test.csv", "Example input"),
+                 a(href = "https://datashare.mpcdf.mpg.de/s/TAFWZBYto45e9Gk/download", "Example input"),
                  checkboxInput("header", "Header", TRUE),
                  
                  
